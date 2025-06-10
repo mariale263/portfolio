@@ -1,189 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfolio de Maria Alejandra Moreno, desarrolladora web Front-End con experiencia en HTML, CSS, Bootstrap, JavaScript e Illustrator."
-    />
+    <meta name="description"
+        content="Portfolio de Maria Alejandra Moreno, desarrolladora web Front-End con experiencia en HTML, CSS, Bootstrap, JavaScript e Illustrator." />
     <title>Portfolio | Maria Alejandra Moreno</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+</head>
+
+<body>
+    <div id="top" style="position: relative; top: -140px;"></div>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm navbar-gradient">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Maria A. Moreno</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
+                aria-controls="menuNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
     <header class="hero" role="banner" id="top">
-      <h1 class="display-4">Maria Alejandra Moreno</h1>
-      <p class="lead">Desarrolladora Web Front-End | HTML, CSS, Illustrator</p>
-      <a href="#contacto" class="btn btn-success mt-3">Contáctame</a>
+        <h1 class="display-4_ fw-bold">Maria Alejandra Moreno</h1>
+        <p class="lead">Desarrolladora Web Front-End | HTML, CSS, Illustrator</p>
+        <a href="#contacto" class="btn btn-success mt-3">Contáctame</a>
     </header>
 
     <main role="main">
-      <section
-        id="sobre-mi"
-        class="section container"
-        aria-labelledby="titulo-sobre-mi"
-      >
-        <h2 id="titulo-sobre-mi">Sobre mí</h2>
-        <p>
-          Soy Desarrolladora Web Front-End con más de 7 años de experiencia en
-          la maquetación y desarrollo de interfaces limpias, funcionales y
-          responsive. Trabajo con HTML5, CSS3, Bootstrap 5, JavaScript (nivel
-          medio) y jQuery, además de tener conocimientos en Sass, Tailwind y uso
-          de librerías como Metronic.
-        </p>
-        <p>
-          He participado en proyectos basados en Laravel, PHP, Zend y WordPress
-          (con Elementor), y tengo experiencia en diseño de cursos online
-          mediante Rise Articulate 360. También manejo herramientas como
-          Illustrator (avanzado), Photoshop (básico), y tengo nociones de Figma.
-        </p>
-        <p>
-          Organizo y gestiono tareas con Git, SourceTree y Jira, aportando
-          eficiencia y calidad a los flujos de trabajo de desarrollo.
-        </p>
-      </section>
+        <section id="sobre-mi" class="section container" aria-labelledby="titulo-sobre-mi">
+            <h2 id="titulo-sobre-mi">Sobre mí</h2>
+            <p>
+                Soy Desarrolladora Web Front-End con más de 7 años de experiencia en
+                la maquetación y desarrollo de interfaces limpias, funcionales y
+                responsive. Trabajo con HTML5, CSS3, Bootstrap 5, JavaScript (nivel
+                medio) y jQuery, además de tener conocimientos en Sass, Tailwind y uso
+                de librerías como Metronic.
+            </p>
+            <p>
+                He participado en proyectos basados en Laravel, PHP, Zend y WordPress
+                (con Elementor), y tengo experiencia en diseño de cursos online
+                mediante Rise Articulate 360. También manejo herramientas como
+                Illustrator (avanzado), Photoshop (básico), y tengo nociones de Figma.
+            </p>
+            <p>
+                Organizo y gestiono tareas con Git, SourceTree y Jira, aportando
+                eficiencia y calidad a los flujos de trabajo de desarrollo.
+            </p>
+        </section>
 
-      <section
-        id="portfolio"
-        class="section container"
-        aria-labelledby="titulo-portfolio"
-      >
-        <h2 id="titulo-portfolio">Portfolio</h2>
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-4">
-            <div class="card proyecto">
-              <img
-                src="img/proyecto1.jpg"
-                class="card-img-top"
-                alt="Landing page para evento educativo"
-              />
-              <div class="card-body">
-                <h3 class="card-title">Nombre del Proyecto</h3>
-                <p class="card-text">
-                  Diseño de una landing page moderna y responsive. Tecnologías:
-                  HTML, CSS, Illustrator.
-                </p>
-              </div>
+        <section id="portfolio" class="section container" aria-labelledby="titulo-portfolio">
+            <h2 id="titulo-portfolio">Portfolio</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card proyecto">
+                        <img src="img/proyecto1.jpg" class="card-img-top" alt="Landing page para evento educativo" />
+                        <div class="card-body">
+                            <h3 class="card-title">Nombre del Proyecto</h3>
+                            <p class="card-text">
+                                Diseño de una landing page moderna y responsive. Tecnologías:
+                                HTML, CSS, Illustrator.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card proyecto">
+                        <img src="img/proyecto2.jpg" class="card-img-top"
+                            alt="Sitio institucional con animaciones en JavaScript" />
+                        <div class="card-body">
+                            <h3 class="card-title">Nombre del Proyecto</h3>
+                            <p class="card-text">
+                                Desarrollo de un sitio web institucional. Tecnologías: HTML,
+                                CSS, JS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más proyectos aquí -->
             </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card proyecto">
-              <img
-                src="img/proyecto2.jpg"
-                class="card-img-top"
-                alt="Sitio institucional con animaciones en JavaScript"
-              />
-              <div class="card-body">
-                <h3 class="card-title">Nombre del Proyecto</h3>
-                <p class="card-text">
-                  Desarrollo de un sitio web institucional. Tecnologías: HTML,
-                  CSS, JS.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Más proyectos aquí -->
-        </div>
-      </section>
+        </section>
 
-      <section
-        id="contacto"
-        class="section container"
-        aria-labelledby="titulo-contacto"
-      >
-        <h2 id="titulo-contacto">Contacto</h2>
-        <p>¿Quieres trabajar conmigo? Escríbeme:</p>
+        <section id="contacto" class="section container" aria-labelledby="titulo-contacto">
+            <h2 id="titulo-contacto">Contacto</h2>
+            <p>¿Quieres trabajar conmigo? Escríbeme:</p>
 
-        <form
-          action="mailto:tuemail@example.com"
-          method="POST"
-          enctype="text/plain"
-          class="mt-4"
-          aria-labelledby="form-contacto"
-        >
-          <h3 id="form-contacto" class="mb-3">Formulario de contacto</h3>
+            <form action="mailto:tuemail@example.com" method="POST" enctype="text/plain" class="mt-4"
+                aria-labelledby="form-contacto">
+                <h3 id="form-contacto" class="mb-3">Formulario de contacto</h3>
 
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre completo:</label>
-            <input
-              type="text"
-              id="nombre"
-              name="nombre"
-              class="form-control"
-              required
-              aria-required="true"
-              aria-describedby="nombreHelp"
-            />
-            <div id="nombreHelp" class="form-text">
-              Por favor, ingresa tu nombre.
-            </div>
-          </div>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required aria-required="true"
+                        aria-describedby="nombreHelp" />
+                    <div id="nombreHelp" class="form-text">
+                        Por favor, ingresa tu nombre.
+                    </div>
+                </div>
 
-          <div class="mb-3">
-            <label for="email" class="form-label">Correo electrónico:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              class="form-control"
-              required
-              aria-required="true"
-              aria-describedby="emailHelp"
-            />
-            <div id="emailHelp" class="form-text">
-              Tu dirección de email no será compartida.
-            </div>
-          </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" class="form-control" required aria-required="true"
+                        aria-describedby="emailHelp" />
+                    <div id="emailHelp" class="form-text">
+                        Tu dirección de email no será compartida.
+                    </div>
+                </div>
 
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje:</label>
-            <textarea
-              id="mensaje"
-              name="mensaje"
-              rows="5"
-              class="form-control"
-              required
-              aria-required="true"
-              aria-describedby="mensajeHelp"
-            ></textarea>
-            <div id="mensajeHelp" class="form-text">
-              Cuéntame brevemente sobre tu proyecto o consulta.
-            </div>
-          </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" class="form-control" required aria-required="true"
+                        aria-describedby="mensajeHelp"></textarea>
+                    <div id="mensajeHelp" class="form-text">
+                        Cuéntame brevemente sobre tu proyecto o consulta.
+                    </div>
+                </div>
 
-          <button type="submit" class="btn btn-success mt-3">Enviar mensaje</button>
-        </form>
+                <button type="submit" class="btn btn-success mt-3">Enviar mensaje</button>
+            </form>
 
-        <ul>
-          <li>
-            Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a>
-          </li>
-          <li>
-            LinkedIn:
-            <a
-              href="https://www.linkedin.com/in/mariaalejandramoreno/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Perfil de LinkedIn de Maria Alejandra Moreno
-            </a>
-          </li>
-        </ul>
-        <a href="#top" class="btn btn-outline-secondary mt-3"
-          >↑ Volver arriba</a
-        >
-      </section>
+            <ul>
+                <li>
+                    Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a>
+                </li>
+                <li>
+                    LinkedIn:
+                    <a href="https://www.linkedin.com/in/mariaalejandramoreno/" target="_blank"
+                        rel="noopener noreferrer">
+                        Perfil de LinkedIn de Maria Alejandra Moreno
+                    </a>
+                </li>
+            </ul>
+            <a href="#top" class="btn btn-outline-secondary mt-3">↑ Volver arriba</a>
+        </section>
     </main>
 
     <footer class="footer" role="contentinfo">
-      <p>&copy; 2025 Maria Alejandra Moreno. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Maria Alejandra Moreno. Todos los derechos reservados.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
+
 </html>
