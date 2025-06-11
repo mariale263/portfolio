@@ -9,6 +9,10 @@
     --color-secondary: #43a9a3;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', 'Noe Display', sans-serif, Georgia, Times, serif;
   line-height: 1.6;
@@ -25,6 +29,22 @@ h4 {
   color: var(--color-text);
   font-family: 'Noe Display', 'Playfair Display', serif;
   ;
+}
+
+#experiencia h3,
+#formacion h2,
+#experiencia h2,
+#certificaciones h2,
+#aptitudes h2 {
+  margin-top: 1.5rem;
+  color: var(--color-secondary);
+}
+
+
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 a {
@@ -63,6 +83,13 @@ a:hover {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+#sobre-mi,
+#experiencia,
+#formacion,
+#portfolio,
+#contacto {
+  scroll-margin-top: 140px; /* debe ser igual o un poco más que la altura del header */
+}
 
 .section {
   padding: 60px 20px;
